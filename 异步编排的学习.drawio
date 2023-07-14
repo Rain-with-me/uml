@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-14T03:31:24.246Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="0-8kFr6NnRzO7848Ktw3" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-14T03:35:50.614Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="nknfvzZLaJSeNtszD4lr" version="21.6.2" type="github">
   <diagram name="第 1 页" id="UlHOBUHQQT1p7I-PRN9C">
     <mxGraphModel dx="1050" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -27,6 +27,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="5Ssgm4XBpzHBAFNrfpxf-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" edge="1" parent="1" source="5Ssgm4XBpzHBAFNrfpxf-2" target="5Ssgm4XBpzHBAFNrfpxf-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5Ssgm4XBpzHBAFNrfpxf-2" value="继续上一段的任务(里面包含了串行，AND，OR)" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
           <mxGeometry x="390" y="185" width="210" height="65" as="geometry" />
         </mxCell>
@@ -41,6 +44,27 @@
         </mxCell>
         <mxCell id="5Ssgm4XBpzHBAFNrfpxf-16" value="supply方法可以获取异步结果，而run方法则无返回值" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;glass=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="60" y="20" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="5Ssgm4XBpzHBAFNrfpxf-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" edge="1" parent="1" source="5Ssgm4XBpzHBAFNrfpxf-17" target="5Ssgm4XBpzHBAFNrfpxf-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Ssgm4XBpzHBAFNrfpxf-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" edge="1" parent="1" source="5Ssgm4XBpzHBAFNrfpxf-17" target="5Ssgm4XBpzHBAFNrfpxf-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Ssgm4XBpzHBAFNrfpxf-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" edge="1" parent="1" source="5Ssgm4XBpzHBAFNrfpxf-17" target="5Ssgm4XBpzHBAFNrfpxf-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Ssgm4XBpzHBAFNrfpxf-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" edge="1" parent="1" source="5Ssgm4XBpzHBAFNrfpxf-17" target="5Ssgm4XBpzHBAFNrfpxf-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Ssgm4XBpzHBAFNrfpxf-17" value="任务完成函数回调" style="whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="725" y="187.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Ssgm4XBpzHBAFNrfpxf-19" value="&lt;br&gt;&lt;code&gt;whenComplete&lt;br&gt;&lt;/code&gt;返回上一段任务结果&lt;br&gt;" style="whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="650" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Ssgm4XBpzHBAFNrfpxf-23" value="&lt;code&gt;handle&lt;br&gt;可以自定义返回结果&lt;br&gt;&lt;/code&gt;" style="whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="827" y="40" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
